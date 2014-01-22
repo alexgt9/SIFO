@@ -26,7 +26,7 @@ namespace Sifo\Cache;
  * This class is based on Memcached PHP's object implementation: http://www.php.net/manual/es/book.memcached.php
  *
  */
-class Memcached extends CacheBase
+class Memcached extends Base
 {
 
 	/**
