@@ -18,7 +18,7 @@
  *
  */
 
-namespace Sifo;
+namespace Sifo\API;
 
 include ROOT_PATH . '/libs/EpiClasses/EpiCurl.php';
 
@@ -55,7 +55,7 @@ include ROOT_PATH . '/libs/EpiClasses/EpiCurl.php';
  *			[2] => http://i.ytimg.com/vi/ybNJb6EuU1Y/3.jpg
  *		)
  */
-class APIYoutube
+class Youtube
 {
 	/**
 	 * Youtube API url to retreive data.

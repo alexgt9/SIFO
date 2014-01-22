@@ -20,7 +20,9 @@
 
 namespace Sifo;
 
-use PDO,PDOStatement;
+use PDO;
+use PDOStatement;
+
 /**
  * DbStatement class that is extended to customize some PDO functionality.
  */

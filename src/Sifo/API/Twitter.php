@@ -18,7 +18,7 @@
  *
  */
 
-namespace Sifo;
+namespace Sifo\API;
 
 include ROOT_PATH . '/libs/EpiClasses/EpiCurl.php';
 
@@ -45,7 +45,7 @@ include ROOT_PATH . '/libs/EpiClasses/EpiCurl.php';
  * @deprecated Use Epi Classes (see libs/) instead.
  *
  */
-class APITwitter {
+class Twitter {
 
 	/**
 	 * Twitter API return format. You can request the following formats: xml, json, rss, atom.

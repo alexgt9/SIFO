@@ -14,7 +14,9 @@
  * This class is based on Memcache object implementation: http://www.php.net/manual/en/book.memcache.php
  *
  */
-namespace Sifo;
+
+namespace Sifo\Cache;
+
 use \Memcache;
 
 /**
@@ -22,7 +24,7 @@ use \Memcache;
  *
  * @see http://www.php.net/manual/en/memcache.installation.php
  */
-class CacheMemcache extends CacheBase
+class CacheMemcache extends Base
 {
 	protected $cache_object = null;
 

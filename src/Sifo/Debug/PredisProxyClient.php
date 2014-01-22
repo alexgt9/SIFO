@@ -1,6 +1,6 @@
 <?php
 
-namespace Sifo;
+namespace Sifo\Debug;
 
 class DebugPredisProxyClient extends PredisProxyClient
 {

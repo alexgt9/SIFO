@@ -18,13 +18,14 @@
  *
  */
 
+namespace Sifo\Cache;
 
 use \Memcache;
 
 /**
  * Common methods available to every Cache instance.
  */
-class CacheMemcacheAdapter extends Memcache
+class MemcacheAdapter extends Memcache
 {
 
 	/**

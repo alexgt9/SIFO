@@ -18,8 +18,11 @@
  *
  */
 
-namespace Sifo;
-use PDO,PDOStatement;
+namespace Sifo\Debug;
+
+use PDO;
+use PDOStatement;
+use Sifo\MysqlStatement;
 
 include_once ROOT_PATH . '/libs/Sifo/Mysql.php';
 

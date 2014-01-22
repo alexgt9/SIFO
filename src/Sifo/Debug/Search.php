@@ -18,7 +18,7 @@
  *
  */
 
-namespace Sifo;
+namespace Sifo\Debug;
 
 /**
  * Search extension using debug features. It will be used ONLY on devel mode or with debug enable.

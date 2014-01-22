@@ -18,7 +18,7 @@
  *
  */
 
-namespace Sifo;
+namespace Sifo\Debug;
 
 /**
  * SphinxQL Debug class.
